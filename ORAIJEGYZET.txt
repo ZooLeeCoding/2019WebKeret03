@@ -1,0 +1,24 @@
+Direktíva típusok:
+- Component (@Component)
+- attroibútum
+- strukturális
+
+ng new <projektnév>
+// Feltétele, hogy az Angular CLI legyen telepítve
+
+cd <projektnév>
+ng serve
+
+MVC - Model, View, Controller
+
+View (amit a felhasználó lát)
+Controller (irányítja, hogyan lássa az információt a felhasználó, a view eseményei
+hogyan legyenek feldolgozva, kezelve, stb)
+Model (az adatok, objektumok, információ)
+
+Önálló feladat:
+- új komponens Szamlalo néven
+- az app.component-ben az órai példa előtt/felett jelenjen meg
+- tartalma két input mező alattuk egy template kiértékelés {{}}
+- a két input mező két Number-re legyen rákötve ngModel-lel, a default értékük 0
+- a {{}} kiértékelésben a két változó összege szerepeljen
